@@ -1,6 +1,6 @@
 MVC4 Forms Authentication Example
-http://primaryobjects.com/CMS/Article147.aspx
 ===================
+http://primaryobjects.com/CMS/Article147.aspx
 
 A basic example of using MVC4 forms authentication with a custom membership provider and custom principal.
 
