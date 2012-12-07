@@ -1,0 +1,43 @@
+﻿@using MVC4FormsAuth.Types.Models
+
+@model Logon
+
+@{ Html.EnableClientValidation(); }
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Set form to submit as ajax.
+        $('#loginForm').ajaxForm({
+            dataType: 'json',
+            beforeSubmit: function (arr, $form, options) {
+                if (!$form.valid()) {
+                    return false;
+                }
+            },
+            success: function (result) {
+                // Send user to landing page.
+                if (result.Status == 'OK') {
+                    document.location = result.RedirectUrl;
+                }
+                else {
+                    $('#loginStatus').html(result.Status);
+                }
+            }
+        });
+    });
+</script>
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post, new { id = "loginForm" }))
+{                              
+    @Html.HiddenFor(u => u.RedirectUrl, new { value = Model.RedirectUrl })
+
+    <div id="loginStatus" class="field-validation-error"></div>
+    
+    <div>@Html.LabelFor(u => u.Username)</div>
+    <div>@Html.TextBoxFor(u => u.Username, new { id = "userid", @class = "inptFld" })</div>
+    
+    <div>@Html.LabelFor(u => u.Password)</div>
+    <div>@Html.PasswordFor(u => u.Password, new { id = "passowdid", @class = "inptFld" })</div>
+    
+    <input type="submit" value="Login" />
+}

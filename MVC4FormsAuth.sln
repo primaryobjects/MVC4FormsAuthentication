@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4FormsAuth.Web", "MVC4FormsAuth.Web\MVC4FormsAuth.Web.csproj", "{A2DF5106-0324-43B2-8A3C-2535BDA02DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4FormsAuth.Types", "MVC4FormsAuth.Types\MVC4FormsAuth.Types.csproj", "{641BCC91-CD11-434C-9FD3-C5882F61DEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4FormsAuth.Managers", "MVC4FormsAuth.Managers\MVC4FormsAuth.Managers.csproj", "{5D715937-4A4C-4EB2-9AF5-559F0E32E388}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2DF5106-0324-43B2-8A3C-2535BDA02DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DF5106-0324-43B2-8A3C-2535BDA02DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DF5106-0324-43B2-8A3C-2535BDA02DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DF5106-0324-43B2-8A3C-2535BDA02DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641BCC91-CD11-434C-9FD3-C5882F61DEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641BCC91-CD11-434C-9FD3-C5882F61DEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641BCC91-CD11-434C-9FD3-C5882F61DEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641BCC91-CD11-434C-9FD3-C5882F61DEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D715937-4A4C-4EB2-9AF5-559F0E32E388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D715937-4A4C-4EB2-9AF5-559F0E32E388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D715937-4A4C-4EB2-9AF5-559F0E32E388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D715937-4A4C-4EB2-9AF5-559F0E32E388}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

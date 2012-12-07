@@ -1,0 +1,43 @@
+﻿label
+{
+    font-family: Verdana;
+	font-size: 10pt;
+}
+
+/* Styles for validation helpers */
+.field-validation-error
+{
+    font: normal 12px Verdana;
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.validation-summary-errors {
+    background-color: #ffffff;
+    font-size: 12pt;
+    }
+
+div.validation-summary-errors {
+    display:block;
+    }
+
+ul.validation-summary-errors {
+    margin:0;
+    padding:0;
+    border-top:none;
+    }

@@ -1,0 +1,20 @@
+﻿@using MVC4FormsAuth.Managers
+@using MVC4FormsAuth.Types.Models
+
+@{
+    Layout = "~/views/shared/layouts/default.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div>
+        You're logged in as @UserManager.User.Username (@UserManager.User.Age)
+    </div>
+}
+else
+{
+    @Html.Partial("Controls/Login", new Logon());
+}
