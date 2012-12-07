@@ -1,11 +1,12 @@
 MVC4 Forms Authentication Example
+http://primaryobjects.com/CMS/Article147.aspx
 ===================
 
 A basic example of using MVC4 forms authentication with a custom membership provider and custom principal.
 
 Upon logging in, user data is stored in the encrypted forms auth cookie. This allows you to have global access to the user profile data, without having to retrieve it from the database upon each request.
 
-Copyright © 2012 Kory Becker (http://www.primaryobjects.com)
+Copyright ï¿½ 2012 Kory Becker (http://www.primaryobjects.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
